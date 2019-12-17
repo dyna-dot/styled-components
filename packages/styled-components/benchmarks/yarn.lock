@@ -3446,16 +3446,17 @@ react-addons-shallow-compare@^15.6.2:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
 
-react-art@^16.4.2:
-  version "16.4.2"
-  resolved "https://registry.npmjs.org/react-art/-/react-art-16.4.2.tgz#df6846dab6e11ef13ae07d33d64cff50925de2da"
+react-art@^16.12.0:
+  version "16.12.0"
+  resolved "https://registry.yarnpkg.com/react-art/-/react-art-16.12.0.tgz#3a0169e4db262f2c663e38488f81a1ba4b0045c6"
+  integrity sha512-Bsszw6UYZ4C6IbkcvPeEx5qerALTCkHrTbh1x/hF4MmP5Bm8bk1PRfvxSaxC4VZ5HgTHF9FUvHk9jIogXE82Uw==
   dependencies:
     art "^0.10.1"
     create-react-class "^15.6.2"
-    fbjs "^0.8.16"
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    prop-types "^15.6.0"
+    prop-types "^15.6.2"
+    scheduler "^0.18.0"
 
 react-dom@^16.4.2:
   version "16.4.2"
@@ -3712,6 +3713,14 @@ safe-regex@^1.1.0:
 sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+
+scheduler@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
+  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@^0.4.3, schema-utils@^0.4.4, schema-utils@^0.4.5:
   version "0.4.5"
